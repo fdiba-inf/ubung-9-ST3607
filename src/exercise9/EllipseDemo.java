@@ -1,4 +1,4 @@
-git package exercise9;
+ package exercise9;
 
 public class EllipseDemo {
     public static void main(String[] args) {
@@ -15,8 +15,8 @@ public class EllipseDemo {
       System.out.println("Ellipse 3:" + ellipse3);
       System.out.println("Ellipse 4:" + ellipse4);
 
-      System.out.println("Ellipse 2 equals Ellipse 1:" +ellipse2.equals(ellipse1));
-      System.out.println("Ellipse 2 equals Ellipse 3:" +ellipse2.equals(ellipse3));
+      System.out.println("Ellipse 2 equals Ellipse 1:" + ellipse2.equals(ellipse1));
+      System.out.println("Ellipse 2 equals Ellipse 3:" + ellipse2.equals(ellipse3));
 
     }
 }
