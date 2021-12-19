@@ -6,7 +6,7 @@ public class Ellipse {
   private double b;
 
   public Ellipse() {
-    startPoint = new Point(0,0);
+    startPoint = new Point(0, 0);
     a = 1;
     b = 1;
   }
@@ -43,7 +43,7 @@ return Math.PI * (3 * (a + b) - Math.sqrt((3 * a + b) * (a + 3 * b)));
     return (a == b) ? "Circle" : "Ellipse";
   }
   public String toString() {
-return String.format("%s-[%s, %s], %s, P=%s, A=%s",startPoint, a, b, getType(), calculatePerimeter(), calculateArea());
+return String.format("%s-[%s, %s], %s, P=%s, A=%s", startPoint, a, b, getType(), calculatePerimeter(), calculateArea());
   }
   public boolean equals(Ellipse otherEllipse) {
     boolean a1 = Utils.equals(a, otherEllipse.a);
