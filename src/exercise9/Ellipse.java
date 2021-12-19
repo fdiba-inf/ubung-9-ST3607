@@ -10,7 +10,7 @@ public class Ellipse {
     a = 1;
     b = 1;
   }
-  public Ellipse(Point startPoint,double a, double b) {
+  public Ellipse(Point startPoint, double a, double b) {
     this.startPoint = new Point(startPoint);
     this.a = a;
     this.b = b;
@@ -25,7 +25,7 @@ public class Ellipse {
   }
   public void initialize() {
     do {
-      System.out.println("Start Point: ");
+      System.out.println("Start point: ");
       startPoint.initialize();
       System.out.print("Enter a: ");
       a = Utils.INPUT.nextDouble();
