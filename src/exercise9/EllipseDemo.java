@@ -10,13 +10,13 @@ public class EllipseDemo {
       Ellipse ellipse4 = new Ellipse();
       ellipse4.initialize();
 
-      System.out.println("Ellipse 1:" + ellipse1);
-      System.out.println("Ellipse 2:" + ellipse2);
-      System.out.println("Ellipse 3:" + ellipse3);
-      System.out.println("Ellipse 4:" + ellipse4);
+      System.out.println("Ellipse 1: " + ellipse1);
+      System.out.println("Ellipse 2: " + ellipse2);
+      System.out.println("Ellipse 3: " + ellipse3);
+      System.out.println("Ellipse 4: " + ellipse4);
 
-      System.out.println("Ellipse 2 equals Ellipse 1:" + ellipse2.equals(ellipse1));
-      System.out.println("Ellipse 2 equals Ellipse 3:" + ellipse2.equals(ellipse3));
+      System.out.println("Ellipse 2 equals Ellipse 1: " + ellipse2.equals(ellipse1));
+      System.out.println("Ellipse 2 equals Ellipse 3: " + ellipse2.equals(ellipse3));
 
     }
 }
